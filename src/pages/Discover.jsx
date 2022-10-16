@@ -20,7 +20,7 @@ const Discover = () => {
   const genreTitle = "Pop";
   return (
     <div className="flex flex-col">
-      <div className="w-full flex justify-between items-center sm:float-row flex-col mt-4 mb-10">
+      <div className="w-full flex justify-between items-center sm:flex-row flex-col mt-4 mb-10">
         <h2 className="font-bold text-3xl text-white">Discover {genreTitle}</h2>
         <select
           onChange={() => {}}
