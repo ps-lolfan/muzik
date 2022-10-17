@@ -6,7 +6,7 @@ import { useGetTopChartsQuery } from "../redux/services/shazamCore";
 
 import { selectGenreListId } from "../redux/features/playerSlice";
 
-import { useGetSongsByGenreQuery } from "../redux/services";
+import { useGetSongsByGenreQuery } from "../redux/services/shazamCore";
 
 const Discover = () => {
   const dispatch = useDispatch();
