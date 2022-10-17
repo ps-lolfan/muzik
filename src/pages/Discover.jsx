@@ -16,7 +16,6 @@ const Discover = () => {
   if (isFetching) return <Loader title="Loading songs..." />;
 
   if (error) return <Error />;
-  console.log(data);
   const genreTitle = "Pop";
   return (
     <div className="flex flex-col">
